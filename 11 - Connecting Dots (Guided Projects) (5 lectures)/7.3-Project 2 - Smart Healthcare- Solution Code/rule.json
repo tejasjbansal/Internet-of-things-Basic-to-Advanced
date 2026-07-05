@@ -1,0 +1,23 @@
+{"rule_data":[
+	{
+		"Rule_id":"Rule101",
+		"sensor_data_type": "SPO2", 
+		"avg_min": "90", 
+		"avg_max": "100", 
+		"trigger_count": "5"
+	}, 
+	{
+		"Rule_id":"Rule102",
+		"sensor_data_type": "Temperature", 
+		"avg_min": "90", 
+		"avg_max": "100", 
+		"trigger_count": "5"
+	}, 
+	{
+		"Rule_id":"Rule103",
+		"sensor_data_type": "HeartRate", 
+		"avg_min": "75", 
+		"avg_max": "85", 
+		"trigger_count": "5"
+	} 
+]}

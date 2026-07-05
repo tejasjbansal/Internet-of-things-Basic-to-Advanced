@@ -1,0 +1,355 @@
+C:\Users\2347\Downloads\ACSE\Projects\M3\venv\Scripts\python.exe C:/Users/2347/Downloads/ACSE/Projects/M3/main.py 
+
+Smart Home Simulation started.
+
+******************* REGISTRATION OF THE DEVICES THROUGH SERVER *******************
+
+******************* REGISTRATION OF LIGHT DEVICES INITIATED *******************
+
+Registration request is acknowledged for device LIGHT  with id 'light_1' in Kitchen
+Request is processed for light_1
+Light-Device Registered! Registration status for device id (light_1) device type (LIGHT) room (Kitchen) : True
+
+Registration request is acknowledged for device LIGHT  with id 'light_2' in Garage
+Request is processed for light_2
+Light-Device Registered! Registration status for device id (light_2) device type (LIGHT) room (Garage) : True
+
+Registration request is acknowledged for device LIGHT  with id 'light_3' in Living Room
+Request is processed for light_3
+Light-Device Registered! Registration status for device id (light_3) device type (LIGHT) room (Living Room) : True
+
+Registration request is acknowledged for device LIGHT  with id 'light_4' in BR1
+Request is processed for light_4
+Light-Device Registered! Registration status for device id (light_4) device type (LIGHT) room (BR1) : True
+
+Registration request is acknowledged for device LIGHT  with id 'light_5' in BR2
+Request is processed for light_5
+Light-Device Registered! Registration status for device id (light_5) device type (LIGHT) room (BR2) : True
+
+Registration request is acknowledged for device LIGHT  with id 'light_6' in Living Room
+Request is processed for light_6
+Light-Device Registered! Registration status for device id (light_6) device type (LIGHT) room (Living Room) : True
+
+Registration request is acknowledged for device LIGHT  with id 'light_7' in Living Room
+Request is processed for light_7
+Light-Device Registered! Registration status for device id (light_7) device type (LIGHT) room (Living Room) : True
+
+******************* REGISTRATION OF AC DEVICES INITIATED *******************
+
+Registration request is acknowledged for device AC  with id 'ac_1' in BR1
+Request is processed for ac_1
+AC-DEVICE Registered! - Registration status for device id (ac_1) device type (AC) for (BR1) : True
+
+Registration request is acknowledged for device AC  with id 'ac_2' in BR2
+Request is processed for ac_2
+AC-DEVICE Registered! - Registration status for device id (ac_2) device type (AC) for (BR2) : True
+
+Registration request is acknowledged for device AC  with id 'ac_3' in Living Room
+Request is processed for ac_3
+AC-DEVICE Registered! - Registration status for device id (ac_3) device type (AC) for (Living Room) : True
+
+Registration request is acknowledged for device AC  with id 'ac_4' in Living Room
+Request is processed for ac_4
+AC-DEVICE Registered! - Registration status for device id (ac_4) device type (AC) for (Living Room) : True
+
+******************* REGISTRATION DEVICES ON THE SERVER *******************
+
+Fetching the list of registered devices from EdgeServer :
+Registered device on Edge Server :
+{'device_id': 'light_1', 'room': 'Kitchen', 'device_type': 'LIGHT'}
+{'device_id': 'light_2', 'room': 'Garage', 'device_type': 'LIGHT'}
+{'device_id': 'light_3', 'room': 'Living Room', 'device_type': 'LIGHT'}
+{'device_id': 'light_4', 'room': 'BR1', 'device_type': 'LIGHT'}
+{'device_id': 'light_5', 'room': 'BR2', 'device_type': 'LIGHT'}
+{'device_id': 'light_6', 'room': 'Living Room', 'device_type': 'LIGHT'}
+{'device_id': 'light_7', 'room': 'Living Room', 'device_type': 'LIGHT'}
+{'device_id': 'ac_1', 'room': 'BR1', 'device_type': 'AC'}
+{'device_id': 'ac_2', 'room': 'BR2', 'device_type': 'AC'}
+{'device_id': 'ac_3', 'room': 'Living Room', 'device_type': 'AC'}
+{'device_id': 'ac_4', 'room': 'Living Room', 'device_type': 'AC'}
+
+******************* GETTING THE STATUS AND CONTROLLING THE DEVICES *******************
+
+******************* GETTING THE STATUS BY DEVICE_ID *******************
+
+Get Status based on device_id : light_1
+Command ID 1 request is initiated...
+Command ID 1 request is executed...
+Here is the current device status for light_1 : {'device_id': 'light_1', 'device_type': 'LIGHT', 'room': 'Kitchen', 'switch_state': 'OFF', 'intensity': 'LOW'}
+
+Get Status based on device_id : light_2
+Command ID 2 request is initiated...
+Command ID 2 request is executed...
+Here is the current device status for light_2 : {'device_id': 'light_2', 'device_type': 'LIGHT', 'room': 'Garage', 'switch_state': 'OFF', 'intensity': 'LOW'}
+
+Get Status based on device_id : light_3
+Command ID 3 request is initiated...
+Command ID 3 request is executed...
+Here is the current device status for light_3 : {'device_id': 'light_3', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'OFF', 'intensity': 'LOW'}
+
+Get Status based on device_id : light_4
+Command ID 4 request is initiated...
+Command ID 4 request is executed...
+Here is the current device status for light_4 : {'device_id': 'light_4', 'device_type': 'LIGHT', 'room': 'BR1', 'switch_state': 'OFF', 'intensity': 'LOW'}
+
+Get Status based on device_id : light_5
+Command ID 5 request is initiated...
+Command ID 5 request is executed...
+Here is the current device status for light_5 : {'device_id': 'light_5', 'device_type': 'LIGHT', 'room': 'BR2', 'switch_state': 'OFF', 'intensity': 'LOW'}
+
+Get Status based on device_id : ac_1
+Command ID 6 request is initiated...
+Command ID 6 request is executed...
+Here is the current device status for ac_1 : {'device_id': 'ac_1', 'device_type': 'AC', 'room': 'BR1', 'switch_state': 'OFF', 'temperature': 22}
+
+Get Status based on device_id : ac_2
+Command ID 7 request is initiated...
+Command ID 7 request is executed...
+Here is the current device status for ac_2 : {'device_id': 'ac_2', 'device_type': 'AC', 'room': 'BR2', 'switch_state': 'OFF', 'temperature': 22}
+
+Get Status based on device_id : ac_3
+Command ID 8 request is initiated...
+Command ID 8 request is executed...
+Here is the current device status for ac_3 : {'device_id': 'ac_3', 'device_type': 'AC', 'room': 'Living Room', 'switch_state': 'OFF', 'temperature': 22}
+
+******************* GETTING THE STATUS BY DEVICE_TYPE *******************
+
+Get Status based on device_type : LIGHT
+Command ID 9 request is initiated...
+Here is the current device status for light_1 : {'device_id': 'light_1', 'device_type': 'LIGHT', 'room': 'Kitchen', 'switch_state': 'OFF', 'intensity': 'LOW'}
+Here is the current device status for light_7 : {'device_id': 'light_7', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'OFF', 'intensity': 'LOW'}
+Here is the current device status for light_2 : {'device_id': 'light_2', 'device_type': 'LIGHT', 'room': 'Garage', 'switch_state': 'OFF', 'intensity': 'LOW'}
+Here is the current device status for light_4 : {'device_id': 'light_4', 'device_type': 'LIGHT', 'room': 'BR1', 'switch_state': 'OFF', 'intensity': 'LOW'}
+Here is the current device status for light_5 : {'device_id': 'light_5', 'device_type': 'LIGHT', 'room': 'BR2', 'switch_state': 'OFF', 'intensity': 'LOW'}
+Here is the current device status for light_6 : {'device_id': 'light_6', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'OFF', 'intensity': 'LOW'}
+Here is the current device status for light_3 : {'device_id': 'light_3', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'OFF', 'intensity': 'LOW'}
+Command ID 9 request is executed...
+
+Get Status based on device_type : AC
+Command ID 10 request is initiated...
+Here is the current device status for ac_1 : {'device_id': 'ac_1', 'device_type': 'AC', 'room': 'BR1', 'switch_state': 'OFF', 'temperature': 22}
+Here is the current device status for ac_3 : {'device_id': 'ac_3', 'device_type': 'AC', 'room': 'Living Room', 'switch_state': 'OFF', 'temperature': 22}
+Here is the current device status for ac_4 : {'device_id': 'ac_4', 'device_type': 'AC', 'room': 'Living Room', 'switch_state': 'OFF', 'temperature': 22}
+Here is the current device status for ac_2 : {'device_id': 'ac_2', 'device_type': 'AC', 'room': 'BR2', 'switch_state': 'OFF', 'temperature': 22}
+Command ID 10 request is executed...
+
+******************* GETTING THE STATUS BY ROOM_TYPE *******************
+
+Get Status based on room : Kitchen
+Command ID 11 request is initiated...
+Here is the current device status for light_1 : {'device_id': 'light_1', 'device_type': 'LIGHT', 'room': 'Kitchen', 'switch_state': 'OFF', 'intensity': 'LOW'}
+Command ID 11 request is executed...
+
+Get Status based on room : BR1
+Command ID 12 request is initiated...
+Here is the current device status for ac_1 : {'device_id': 'ac_1', 'device_type': 'AC', 'room': 'BR1', 'switch_state': 'OFF', 'temperature': 22}
+Here is the current device status for light_4 : {'device_id': 'light_4', 'device_type': 'LIGHT', 'room': 'BR1', 'switch_state': 'OFF', 'intensity': 'LOW'}
+Command ID 12 request is executed...
+
+Get Status based on room : BR2
+Command ID 13 request is initiated...
+Here is the current device status for light_5 : {'device_id': 'light_5', 'device_type': 'LIGHT', 'room': 'BR2', 'switch_state': 'OFF', 'intensity': 'LOW'}
+Here is the current device status for ac_2 : {'device_id': 'ac_2', 'device_type': 'AC', 'room': 'BR2', 'switch_state': 'OFF', 'temperature': 22}
+Command ID 13 request is executed...
+
+Get Status based on room : Living Room
+Command ID 14 request is initiated...
+Here is the current device status for light_3 : {'device_id': 'light_3', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'OFF', 'intensity': 'LOW'}
+Here is the current device status for light_7 : {'device_id': 'light_7', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'OFF', 'intensity': 'LOW'}
+Here is the current device status for ac_4 : {'device_id': 'ac_4', 'device_type': 'AC', 'room': 'Living Room', 'switch_state': 'OFF', 'temperature': 22}
+Here is the current device status for light_6 : {'device_id': 'light_6', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'OFF', 'intensity': 'LOW'}
+Here is the current device status for ac_3 : {'device_id': 'ac_3', 'device_type': 'AC', 'room': 'Living Room', 'switch_state': 'OFF', 'temperature': 22}
+Command ID 14 request is executed...
+
+Get Status based on room : Garage
+Command ID 15 request is initiated...
+Here is the current device status for light_2 : {'device_id': 'light_2', 'device_type': 'LIGHT', 'room': 'Garage', 'switch_state': 'OFF', 'intensity': 'LOW'}
+Command ID 15 request is executed...
+
+******************* GETTING THE STATUS FOR ENTIRE HOME *******************
+
+Get Status based on all : all
+Command ID 16 request is initiated...
+Here is the current device status for ac_3 : {'device_id': 'ac_3', 'device_type': 'AC', 'room': 'Living Room', 'switch_state': 'OFF', 'temperature': 22}
+Here is the current device status for light_2 : {'device_id': 'light_2', 'device_type': 'LIGHT', 'room': 'Garage', 'switch_state': 'OFF', 'intensity': 'LOW'}
+Here is the current device status for light_1 : {'device_id': 'light_1', 'device_type': 'LIGHT', 'room': 'Kitchen', 'switch_state': 'OFF', 'intensity': 'LOW'}
+Here is the current device status for light_7 : {'device_id': 'light_7', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'OFF', 'intensity': 'LOW'}
+Here is the current device status for ac_4 : {'device_id': 'ac_4', 'device_type': 'AC', 'room': 'Living Room', 'switch_state': 'OFF', 'temperature': 22}
+Here is the current device status for ac_2 : {'device_id': 'ac_2', 'device_type': 'AC', 'room': 'BR2', 'switch_state': 'OFF', 'temperature': 22}
+Here is the current device status for light_3 : {'device_id': 'light_3', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'OFF', 'intensity': 'LOW'}
+Here is the current device status for light_5 : {'device_id': 'light_5', 'device_type': 'LIGHT', 'room': 'BR2', 'switch_state': 'OFF', 'intensity': 'LOW'}
+Here is the current device status for ac_1 : {'device_id': 'ac_1', 'device_type': 'AC', 'room': 'BR1', 'switch_state': 'OFF', 'temperature': 22}
+Here is the current device status for light_6 : {'device_id': 'light_6', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'OFF', 'intensity': 'LOW'}
+Here is the current device status for light_4 : {'device_id': 'light_4', 'device_type': 'LIGHT', 'room': 'BR1', 'switch_state': 'OFF', 'intensity': 'LOW'}
+Command ID 16 request is executed...
+
+******************* SETTING  THE STATUS AND CONTROLLING THE DEVICE  *******************
+
+******* SETTING DEVICE STATUS (ON or OFF BY DEVICE ID *********
+
+Set Status based on device_id : light_1...
+Setting status of light_1 to ON ...
+Command ID 17 request is initiated...
+Command ID 17 request is executed
+Here is the current device status for light_1 : {'device_id': 'light_1', 'device_type': 'LIGHT', 'room': 'Kitchen', 'switch_state': 'ON', 'intensity': 'MEDIUM'}
+
+Set Status based on device_id : ac_1...
+Setting status of ac_1 to ON ...
+Command ID 18 request is initiated...
+Command ID 18 request is executed
+Here is the current device status for ac_1 : {'device_id': 'ac_1', 'device_type': 'AC', 'room': 'BR1', 'switch_state': 'ON', 'temperature': 22}
+
+Set Status based on device_id : light_2...
+Setting status of light_2 to OFF ...
+Command ID 19 request is initiated...
+Command ID 19 request is executed
+Here is the current device status for light_2 : {'device_id': 'light_2', 'device_type': 'LIGHT', 'room': 'Garage', 'switch_state': 'OFF', 'intensity': 'MEDIUM'}
+
+Set Status based on device_id : light_3...
+Setting status of light_3 to ON ...
+Command ID 20 request is initiated...
+Command ID 20 request is executed
+Here is the current device status for light_3 : {'device_id': 'light_3', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'ON', 'intensity': 'MEDIUM'}
+
+Set Status based on device_id : ac_2...
+Setting status of ac_2 to OFF ...
+Command ID 21 request is initiated...
+Command ID 21 request is executed
+Here is the current device status for ac_2 : {'device_id': 'ac_2', 'device_type': 'AC', 'room': 'BR2', 'switch_state': 'OFF', 'temperature': 22}
+
+******* SETTING DEVICE STATUS BY DEVICE TYPE *********
+
+Set Status based on device_type : LIGHT...
+Setting status of LIGHT to ON ...
+Command ID 22 request is initiated...
+Command ID 22 request is executed
+Here is the current device status for light_2 : {'device_id': 'light_2', 'device_type': 'LIGHT', 'room': 'Garage', 'switch_state': 'ON', 'intensity': 'MEDIUM'}
+Here is the current device status for light_7 : {'device_id': 'light_7', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'ON', 'intensity': 'MEDIUM'}
+Here is the current device status for light_3 : {'device_id': 'light_3', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'ON', 'intensity': 'MEDIUM'}
+Here is the current device status for light_5 : {'device_id': 'light_5', 'device_type': 'LIGHT', 'room': 'BR2', 'switch_state': 'ON', 'intensity': 'MEDIUM'}
+Here is the current device status for light_6 : {'device_id': 'light_6', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'ON', 'intensity': 'MEDIUM'}
+Here is the current device status for light_1 : {'device_id': 'light_1', 'device_type': 'LIGHT', 'room': 'Kitchen', 'switch_state': 'ON', 'intensity': 'MEDIUM'}
+Here is the current device status for light_4 : {'device_id': 'light_4', 'device_type': 'LIGHT', 'room': 'BR1', 'switch_state': 'ON', 'intensity': 'MEDIUM'}
+
+Set Status based on device_type : AC...
+Setting status of AC to ON ...
+Command ID 23 request is initiated...
+Command ID 23 request is executed
+Here is the current device status for ac_1 : {'device_id': 'ac_1', 'device_type': 'AC', 'room': 'BR1', 'switch_state': 'ON', 'temperature': 22}
+Here is the current device status for ac_4 : {'device_id': 'ac_4', 'device_type': 'AC', 'room': 'Living Room', 'switch_state': 'ON', 'temperature': 22}
+Here is the current device status for ac_3 : {'device_id': 'ac_3', 'device_type': 'AC', 'room': 'Living Room', 'switch_state': 'ON', 'temperature': 22}
+Here is the current device status for ac_2 : {'device_id': 'ac_2', 'device_type': 'AC', 'room': 'BR2', 'switch_state': 'ON', 'temperature': 22}
+
+******* SETTING DEVICE STATUS BY ROOM *********
+
+Set Status based on room : BR1...
+Setting status of BR1 to ON ...
+Command ID 24 request is initiated...
+Command ID 24 request is executed
+Here is the current device status for light_4 : {'device_id': 'light_4', 'device_type': 'LIGHT', 'room': 'BR1', 'switch_state': 'ON', 'intensity': 'MEDIUM'}
+Here is the current device status for ac_1 : {'device_id': 'ac_1', 'device_type': 'AC', 'room': 'BR1', 'switch_state': 'ON', 'temperature': 22}
+
+Set Status based on room : Living Room...
+Setting status of Living Room to ON ...
+Command ID 25 request is initiated...
+Command ID 25 request is executed
+Here is the current device status for light_6 : {'device_id': 'light_6', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'ON', 'intensity': 'MEDIUM'}
+Here is the current device status for ac_3 : {'device_id': 'ac_3', 'device_type': 'AC', 'room': 'Living Room', 'switch_state': 'ON', 'temperature': 22}
+Here is the current device status for light_3 : {'device_id': 'light_3', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'ON', 'intensity': 'MEDIUM'}
+Here is the current device status for ac_4 : {'device_id': 'ac_4', 'device_type': 'AC', 'room': 'Living Room', 'switch_state': 'ON', 'temperature': 22}
+Here is the current device status for light_7 : {'device_id': 'light_7', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'ON', 'intensity': 'MEDIUM'}
+
+******* SETTING DEVICE STATUS FOR ENTIRE HOUSE  *********
+
+Set Status based on all : all...
+Setting status of all to OFF ...
+Command ID 26 request is initiated...
+Command ID 26 request is executed
+Here is the current device status for light_1 : {'device_id': 'light_1', 'device_type': 'LIGHT', 'room': 'Kitchen', 'switch_state': 'OFF', 'intensity': 'MEDIUM'}
+Here is the current device status for light_4 : {'device_id': 'light_4', 'device_type': 'LIGHT', 'room': 'BR1', 'switch_state': 'OFF', 'intensity': 'MEDIUM'}
+Here is the current device status for ac_4 : {'device_id': 'ac_4', 'device_type': 'AC', 'room': 'Living Room', 'switch_state': 'OFF', 'temperature': 22}
+Here is the current device status for light_2 : {'device_id': 'light_2', 'device_type': 'LIGHT', 'room': 'Garage', 'switch_state': 'OFF', 'intensity': 'MEDIUM'}
+Here is the current device status for light_3 : {'device_id': 'light_3', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'OFF', 'intensity': 'MEDIUM'}
+Here is the current device status for light_5 : {'device_id': 'light_5', 'device_type': 'LIGHT', 'room': 'BR2', 'switch_state': 'OFF', 'intensity': 'MEDIUM'}
+Here is the current device status for ac_3 : {'device_id': 'ac_3', 'device_type': 'AC', 'room': 'Living Room', 'switch_state': 'OFF', 'temperature': 22}
+Here is the current device status for light_7 : {'device_id': 'light_7', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'OFF', 'intensity': 'MEDIUM'}
+Here is the current device status for ac_2 : {'device_id': 'ac_2', 'device_type': 'AC', 'room': 'BR2', 'switch_state': 'OFF', 'temperature': 22}
+Here is the current device status for ac_1 : {'device_id': 'ac_1', 'device_type': 'AC', 'room': 'BR1', 'switch_state': 'OFF', 'temperature': 22}
+Here is the current device status for light_6 : {'device_id': 'light_6', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'OFF', 'intensity': 'MEDIUM'}
+
+******************* SETTING LIGHT INTENSITY / AC TEMPERATURE  *******************
+
+******* SETTING LIGHT INTENSITY / AC TEMPERATURE BY DEVICE ID *********
+
+Set Value based on device_id : ac_1...
+Setting value of ac_1 to  (30)...
+Command ID 26 request is initiated...
+Command ID 26 request is executed
+Here is the current device status for ac_1 : {'device_id': 'ac_1', 'device_type': 'AC', 'room': 'BR1', 'switch_state': 'ON', 'temperature': 30}
+
+Set Value based on device_id : light_1...
+Setting value of light_1 to  (HIGH)...
+Command ID 26 request is initiated...
+Command ID 26 request is executed
+Here is the current device status for light_1 : {'device_id': 'light_1', 'device_type': 'LIGHT', 'room': 'Kitchen', 'switch_state': 'ON', 'intensity': 'HIGH'}
+
+******* SETTING DEVICE VALUE BY ALL (TEMPERATURE FOR AC / INTENSITY FOR LIGHT) *********
+
+Set Value based on all : LIGHT...
+Setting value of LIGHT to  (LOW)...
+Command ID 26 request is initiated...
+Command ID 26 request is executed
+Here is the current device status for light_2 : {'device_id': 'light_2', 'device_type': 'LIGHT', 'room': 'Garage', 'switch_state': 'ON', 'intensity': 'LOW'}
+Here is the current device status for light_6 : {'device_id': 'light_6', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'ON', 'intensity': 'LOW'}
+Here is the current device status for light_1 : {'device_id': 'light_1', 'device_type': 'LIGHT', 'room': 'Kitchen', 'switch_state': 'ON', 'intensity': 'LOW'}
+Here is the current device status for light_3 : {'device_id': 'light_3', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'ON', 'intensity': 'LOW'}
+Here is the current device status for light_7 : {'device_id': 'light_7', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'ON', 'intensity': 'LOW'}
+Here is the current device status for light_4 : {'device_id': 'light_4', 'device_type': 'LIGHT', 'room': 'BR1', 'switch_state': 'ON', 'intensity': 'LOW'}
+Here is the current device status for light_5 : {'device_id': 'light_5', 'device_type': 'LIGHT', 'room': 'BR2', 'switch_state': 'ON', 'intensity': 'LOW'}
+
+Set Value based on all : AC...
+Setting value of AC to  (29)...
+Command ID 26 request is initiated...
+Command ID 26 request is executed
+Here is the current device status for ac_2 : {'device_id': 'ac_2', 'device_type': 'AC', 'room': 'BR2', 'switch_state': 'ON', 'temperature': 29}
+Here is the current device status for ac_1 : {'device_id': 'ac_1', 'device_type': 'AC', 'room': 'BR1', 'switch_state': 'ON', 'temperature': 29}
+Here is the current device status for ac_4 : {'device_id': 'ac_4', 'device_type': 'AC', 'room': 'Living Room', 'switch_state': 'ON', 'temperature': 29}
+Here is the current device status for ac_3 : {'device_id': 'ac_3', 'device_type': 'AC', 'room': 'Living Room', 'switch_state': 'ON', 'temperature': 29}
+
+******* SETTING DEVICE VALUE BY ROOM (TEMPERATURE FOR AC / INTENSITY FOR LIGHT) *********
+
+Set Value based on room : AC in room Living Room...
+Setting value of AC to  (28)...
+Command ID 26 request is initiated...
+Command ID 26 request is executed
+Here is the current device status for ac_4 : {'device_id': 'ac_4', 'device_type': 'AC', 'room': 'Living Room', 'switch_state': 'ON', 'temperature': 28}
+Here is the current device status for ac_3 : {'device_id': 'ac_3', 'device_type': 'AC', 'room': 'Living Room', 'switch_state': 'ON', 'temperature': 28}
+
+Set Value based on room : LIGHT in room Living Room...
+Setting value of LIGHT to  (LOW)...
+Command ID 26 request is initiated...
+Command ID 26 request is executed
+Here is the current device status for light_3 : {'device_id': 'light_3', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'ON', 'intensity': 'LOW'}
+Here is the current device status for light_6 : {'device_id': 'light_6', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'ON', 'intensity': 'LOW'}
+Here is the current device status for light_7 : {'device_id': 'light_7', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'ON', 'intensity': 'LOW'}
+
+******************* CURRENT  STATUS FOR ENTIRE HOME BEFORE CLOSING THE PROGRAM *******************
+
+Get Status based on all : all
+Command ID 27 request is initiated...
+Here is the current device status for light_7 : {'device_id': 'light_7', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'ON', 'intensity': 'LOW'}
+Here is the current device status for light_3 : {'device_id': 'light_3', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'ON', 'intensity': 'LOW'}
+Here is the current device status for ac_2 : {'device_id': 'ac_2', 'device_type': 'AC', 'room': 'BR2', 'switch_state': 'ON', 'temperature': 29}
+Here is the current device status for light_1 : {'device_id': 'light_1', 'device_type': 'LIGHT', 'room': 'Kitchen', 'switch_state': 'ON', 'intensity': 'LOW'}
+Here is the current device status for light_6 : {'device_id': 'light_6', 'device_type': 'LIGHT', 'room': 'Living Room', 'switch_state': 'ON', 'intensity': 'LOW'}
+Here is the current device status for ac_3 : {'device_id': 'ac_3', 'device_type': 'AC', 'room': 'Living Room', 'switch_state': 'ON', 'temperature': 28}
+Here is the current device status for light_2 : {'device_id': 'light_2', 'device_type': 'LIGHT', 'room': 'Garage', 'switch_state': 'ON', 'intensity': 'LOW'}
+Here is the current device status for light_4 : {'device_id': 'light_4', 'device_type': 'LIGHT', 'room': 'BR1', 'switch_state': 'ON', 'intensity': 'LOW'}
+Here is the current device status for ac_1 : {'device_id': 'ac_1', 'device_type': 'AC', 'room': 'BR1', 'switch_state': 'ON', 'temperature': 29}
+Here is the current device status for ac_4 : {'device_id': 'ac_4', 'device_type': 'AC', 'room': 'Living Room', 'switch_state': 'ON', 'temperature': 28}
+Here is the current device status for light_5 : {'device_id': 'light_5', 'device_type': 'LIGHT', 'room': 'BR2', 'switch_state': 'ON', 'intensity': 'LOW'}
+Command ID 27 request is executed...
+
+Smart Home Simulation stopped.
+
+Process finished with exit code 0

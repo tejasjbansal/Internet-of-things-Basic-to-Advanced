@@ -1,0 +1,81 @@
+C:\Users\2347\Downloads\ACSE\Projects\M4-CloudProcessing\venv\Scripts\python.exe C:/Users/2347/Downloads/ACSE/Projects/M4-CloudProcessing/project/main.py 
+********Aggregating data for devices ****************
+Creating table : bsm_agg_data
+....Skipped due to exception : ResourceInUseException ...  Reason : Table already exists: bsm_agg_data
+Aggregation started for device_id: BSM_G101 from (2022-10-09 15:22:00) to (2022-10-09 16:32:00)
+...Records for aggregation in bsm_data table :  2404
+...Aggregation completed for BSM_G101. Total aggregated records : 105
+Aggregation started for device_id: BSM_G102 from (2022-10-09 15:22:00) to (2022-10-09 16:32:00)
+...Records for aggregation in bsm_data table :  2404
+...Aggregation completed for BSM_G102. Total aggregated records : 105
+Aggregation started for device_id: BSM_G103 from (2022-10-09 15:22:00) to (2022-10-09 16:32:00)
+...Records for aggregation in bsm_data table :  2404
+...Aggregation completed for BSM_G103. Total aggregated records : 105
+********Processing Rules ****************
+Creating table : bsm_alert_data
+....Skipped due to exception : ResourceInUseException ...  Reason : Table already exists: bsm_alert_data
+Anomaly Detection : Processing rule for device : BSM_G101
+...Rule Rule101 processing for BSM_G101_SPO2 from 2022-10-09 15:22:00 to 2022-10-09 16:32:00: Number of records in bsm_agg_data table : 34
+        Alert for device_id (BSM_G101); rule (Rule101); time (2022-10-09 15:27); breach type : MIN Value : 89.5
+        Alert for device_id (BSM_G101); rule (Rule101); time (2022-10-09 15:28); breach type : MIN Value : 90.83
+        Alert for device_id (BSM_G101); rule (Rule101); time (2022-10-09 15:29); breach type : MIN Value : 89.17
+        Alert for device_id (BSM_G101); rule (Rule101); time (2022-10-09 15:30); breach type : MIN Value : 89.83
+        Alert for device_id (BSM_G101); rule (Rule101); time (2022-10-09 15:36); breach type : MIN Value : 87.5
+        Alert for device_id (BSM_G101); rule (Rule101); time (2022-10-09 15:37); breach type : MIN Value : 87.67
+        Alert for device_id (BSM_G101); rule (Rule101); time (2022-10-09 15:38); breach type : MIN Value : 89.33
+        Alert for device_id (BSM_G101); rule (Rule101); time (2022-10-09 15:39); breach type : MIN Value : 89.33
+        Alert for device_id (BSM_G101); rule (Rule101); time (2022-10-09 15:45); breach type : MIN Value : 88.5
+        Alert for device_id (BSM_G101); rule (Rule101); time (2022-10-09 15:46); breach type : MIN Value : 90.83
+        Alert for device_id (BSM_G101); rule (Rule101); time (2022-10-09 15:52); breach type : MIN Value : 88.83
+        Alert for device_id (BSM_G101); rule (Rule101); time (2022-10-09 15:53); breach type : MIN Value : 90.83
+...Rule Rule101 processed for BSM_G101_SPO2 : Total anomaly detected : 12
+...Rule Rule102 processing for BSM_G101_Temperature from 2022-10-09 15:22:00 to 2022-10-09 16:32:00: Number of records in bsm_agg_data table : 34
+...Rule Rule102 processed for BSM_G101_Temperature : Total anomaly detected : 0
+...Rule Rule103 processing for BSM_G101_HeartRate from 2022-10-09 15:22:00 to 2022-10-09 16:32:00: Number of records in bsm_agg_data table : 34
+        Alert for device_id (BSM_G101); rule (Rule103); time (2022-10-09 15:39); breach type : MAX Value : 85.62
+...Rule Rule103 processed for BSM_G101_HeartRate : Total anomaly detected : 1
+Anomaly Detection : Processing rule for device : BSM_G102
+...Rule Rule101 processing for BSM_G102_SPO2 from 2022-10-09 15:22:00 to 2022-10-09 16:32:00: Number of records in bsm_agg_data table : 34
+        Alert for device_id (BSM_G102); rule (Rule101); time (2022-10-09 15:27); breach type : MIN Value : 89.67
+        Alert for device_id (BSM_G102); rule (Rule101); time (2022-10-09 15:28); breach type : MIN Value : 89.67
+        Alert for device_id (BSM_G102); rule (Rule101); time (2022-10-09 15:29); breach type : MIN Value : 90.33
+        Alert for device_id (BSM_G102); rule (Rule101); time (2022-10-09 15:30); breach type : MIN Value : 90.67
+        Alert for device_id (BSM_G102); rule (Rule101); time (2022-10-09 15:40); breach type : MIN Value : 88.33
+        Alert for device_id (BSM_G102); rule (Rule101); time (2022-10-09 15:41); breach type : MIN Value : 90.17
+        Alert for device_id (BSM_G102); rule (Rule101); time (2022-10-09 15:52); breach type : MIN Value : 89
+        Alert for device_id (BSM_G102); rule (Rule101); time (2022-10-09 15:53); breach type : MIN Value : 89.67
+        Alert for device_id (BSM_G102); rule (Rule101); time (2022-10-09 15:54); breach type : MIN Value : 86.5
+...Rule Rule101 processed for BSM_G102_SPO2 : Total anomaly detected : 9
+...Rule Rule102 processing for BSM_G102_Temperature from 2022-10-09 15:22:00 to 2022-10-09 16:32:00: Number of records in bsm_agg_data table : 34
+...Rule Rule102 processed for BSM_G102_Temperature : Total anomaly detected : 0
+...Rule Rule103 processing for BSM_G102_HeartRate from 2022-10-09 15:22:00 to 2022-10-09 16:32:00: Number of records in bsm_agg_data table : 34
+        Alert for device_id (BSM_G102); rule (Rule103); time (2022-10-09 15:45); breach type : MAX Value : 85.12
+        Alert for device_id (BSM_G102); rule (Rule103); time (2022-10-09 15:46); breach type : MAX Value : 85.93
+        Alert for device_id (BSM_G102); rule (Rule103); time (2022-10-09 15:47); breach type : MAX Value : 85.23
+        Alert for device_id (BSM_G102); rule (Rule103); time (2022-10-09 15:48); breach type : MAX Value : 86.67
+...Rule Rule103 processed for BSM_G102_HeartRate : Total anomaly detected : 4
+Anomaly Detection : Processing rule for device : BSM_G103
+...Rule Rule101 processing for BSM_G103_SPO2 from 2022-10-09 15:22:00 to 2022-10-09 16:32:00: Number of records in bsm_agg_data table : 34
+        Alert for device_id (BSM_G103); rule (Rule101); time (2022-10-09 15:27); breach type : MIN Value : 87.33
+        Alert for device_id (BSM_G103); rule (Rule101); time (2022-10-09 15:28); breach type : MIN Value : 88.33
+        Alert for device_id (BSM_G103); rule (Rule101); time (2022-10-09 15:29); breach type : MIN Value : 89.33
+        Alert for device_id (BSM_G103); rule (Rule101); time (2022-10-09 15:30); breach type : MIN Value : 90.67
+        Alert for device_id (BSM_G103); rule (Rule101); time (2022-10-09 15:31); breach type : MIN Value : 89
+        Alert for device_id (BSM_G103); rule (Rule101); time (2022-10-09 15:32); breach type : MIN Value : 89.83
+        Alert for device_id (BSM_G103); rule (Rule101); time (2022-10-09 15:38); breach type : MIN Value : 90
+        Alert for device_id (BSM_G103); rule (Rule101); time (2022-10-09 15:39); breach type : MIN Value : 88
+        Alert for device_id (BSM_G103); rule (Rule101); time (2022-10-09 15:40); breach type : MIN Value : 88
+        Alert for device_id (BSM_G103); rule (Rule101); time (2022-10-09 15:41); breach type : MIN Value : 87.33
+        Alert for device_id (BSM_G103); rule (Rule101); time (2022-10-09 15:42); breach type : MIN Value : 89
+        Alert for device_id (BSM_G103); rule (Rule101); time (2022-10-09 15:43); breach type : MIN Value : 90
+        Alert for device_id (BSM_G103); rule (Rule101); time (2022-10-09 15:44); breach type : MIN Value : 90
+        Alert for device_id (BSM_G103); rule (Rule101); time (2022-10-09 15:45); breach type : MIN Value : 89.17
+        Alert for device_id (BSM_G103); rule (Rule101); time (2022-10-09 15:46); breach type : MIN Value : 89.33
+        Alert for device_id (BSM_G103); rule (Rule101); time (2022-10-09 15:47); breach type : MIN Value : 88.67
+...Rule Rule101 processed for BSM_G103_SPO2 : Total anomaly detected : 16
+...Rule Rule102 processing for BSM_G103_Temperature from 2022-10-09 15:22:00 to 2022-10-09 16:32:00: Number of records in bsm_agg_data table : 34
+...Rule Rule102 processed for BSM_G103_Temperature : Total anomaly detected : 0
+...Rule Rule103 processing for BSM_G103_HeartRate from 2022-10-09 15:22:00 to 2022-10-09 16:32:00: Number of records in bsm_agg_data table : 34
+...Rule Rule103 processed for BSM_G103_HeartRate : Total anomaly detected : 0
+
+Process finished with exit code 0
